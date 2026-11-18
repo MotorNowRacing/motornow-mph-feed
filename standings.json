@@ -1,13 +1,116 @@
 {
   "series": "MP-H Elite Series",
   "season": 2026,
-  "status": "AWAITING_PUBLICATION",
-  "publishable": false,
-  "after_race": null,
-  "generated_at_utc": null,
-  "drivers": [],
-  "teams": [],
-  "notes": [
-    "La clasificación se publicará únicamente después de validación y aprobación editorial."
-  ]
+  "status": "ARCHIVED_SNAPSHOT",
+  "publishable": true,
+  "as_of_utc": "2026-11-17T22:14:00+00:00",
+  "after_race": "data/races/2026-11-17-algarve-portimao-2023-portugal.json",
+  "drivers": [
+    {
+      "position": 1,
+      "name": "Eric Fructuoso",
+      "team": "Ninety Two eSports",
+      "points": 69
+    },
+    {
+      "position": 2,
+      "name": "César Matarín",
+      "team": "Road Cavaliers",
+      "points": 64
+    },
+    {
+      "position": 3,
+      "name": "Dani Martínez",
+      "team": "MNTeam",
+      "points": 33
+    },
+    {
+      "position": 4,
+      "name": "Fernando Morón",
+      "team": "MotorNow",
+      "points": 27
+    },
+    {
+      "position": 5,
+      "name": "Fali",
+      "team": "Canal 47",
+      "points": 22
+    },
+    {
+      "position": 6,
+      "name": "Iker",
+      "team": "VLCRB TEAM",
+      "points": 21
+    },
+    {
+      "position": 7,
+      "name": "Hugo Gómez",
+      "team": "MNTeam",
+      "points": 17
+    },
+    {
+      "position": 8,
+      "name": "José Fructuoso",
+      "team": "Ninety Two eSports",
+      "points": 15
+    },
+    {
+      "position": 9,
+      "name": "Arnau Bardina",
+      "team": "Road Cavaliers",
+      "points": 12
+    },
+    {
+      "position": 10,
+      "name": "José Ramón García",
+      "team": "CRT",
+      "points": 5
+    },
+    {
+      "position": 11,
+      "name": "Víctor Gabriel",
+      "team": "CRT",
+      "points": 2
+    }
+  ],
+  "teams": [
+    {
+      "position": 1,
+      "team": "Ninety Two eSports",
+      "points": 84
+    },
+    {
+      "position": 2,
+      "team": "Road Cavaliers",
+      "points": 76
+    },
+    {
+      "position": 3,
+      "team": "MNTeam",
+      "points": 50
+    },
+    {
+      "position": 4,
+      "team": "MotorNow",
+      "points": 27
+    },
+    {
+      "position": 5,
+      "team": "Canal 47",
+      "points": 22
+    },
+    {
+      "position": 6,
+      "team": "VLCRB TEAM",
+      "points": 21
+    },
+    {
+      "position": 7,
+      "team": "CRT",
+      "points": 7
+    }
+  ],
+  "teams_status": "ORGANIZER_APPROVED_SUM_OF_DRIVER_POINTS",
+  "revision_policy": "Corrections to archived race results and scoring generate new snapshots; git history stores changes.",
+  "source": "organizer_verified_2026-11-18"
 }
