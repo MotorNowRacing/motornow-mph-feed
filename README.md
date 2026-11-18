@@ -1,18 +1,20 @@
 # MotorNow MP-H Elite Series — feed público
 
-Datos destinados a los widgets de resultados y clasificación de la página MP-H de MotorNow.
+Feed oficial de trabajo para WordPress MotorNow, con actualización automática y posibilidad de rectificación posterior.
 
-## Endpoints estables
-- [standings.json](https://raw.githubusercontent.com/MotorNowRacing/motornow-mph-feed/main/standings.json)
-- [races.json](https://raw.githubusercontent.com/MotorNowRacing/motornow-mph-feed/main/races.json)
-- [latest.json](https://raw.githubusercontent.com/MotorNowRacing/motornow-mph-feed/main/latest.json)
-- [calendar.json](https://raw.githubusercontent.com/MotorNowRacing/motornow-mph-feed/main/calendar.json) — **calendario del campeonato confirmado**, disponible aunque resultados y clasificaciones sigan en revisión.
+## Endpoints fijos
+- [standings.json](https://raw.githubusercontent.com/MotorNowRacing/motornow-mph-feed/main/standings.json) — pilotos y clasificación de equipos aprobada por el organizador, obtenida sumando los puntos de sus pilotos.
+- [races.json](https://raw.githubusercontent.com/MotorNowRacing/motornow-mph-feed/main/races.json) — historial, puntos, vueltas y tiempos, preservando cada carrera.
+- [latest.json](https://raw.githubusercontent.com/MotorNowRacing/motornow-mph-feed/main/latest.json) — última carrera archivada.
+- [calendar.json](https://raw.githubusercontent.com/MotorNowRacing/motornow-mph-feed/main/calendar.json) — calendario confirmado y horarios virtuales.
 
-**Estado actual: estructura creada, sin contenido aprobado para publicación.** Los tres JSON de resultados y clasificación llevan `publishable: false` y listas vacías; WordPress no debe tratarlos como clasificación oficial. El plugin local de clasificación exige un snapshot validado (`status: ARCHIVED_SNAPSHOT`) y seguirá recurriendo a su copia local mientras no reciba un feed compatible.
+## Política de actualización
+Los datos provienen de `MotorNowRacing/motornow-stats` (privado). El workflow `.github/workflows/mph-public-feed.yml` reconstruye el feed después de recibir nuevas carreras archivadas y cada miércoles, con seguridad para los pushes hechos desde GitHub Actions.
 
-## Seguridad y flujo de trabajo
-Los datos se procesan en `MotorNowRacing/motornow-stats` (privado), y aquí solo llegan conjuntos revisados para la web. Ningún token, contraseña, clave, credencial, imagen original no autorizada ni fuente de trabajo privada debe copiarse a este repositorio.
+El organizador ha autorizado la publicación automática sobre los mismos archivos. Si hay sanciones u otras rectificaciones, se corrige la carrera original o el registro privado `data/wordpress/mph-corrections.json` y se vuelve a generar la clasificación. El historial de Git permite identificar cada revisión.
 
-El futuro proceso de sincronización deberá reemplazar los mismos archivos en `main` cuando exista aprobación editorial; `races.json` conserva el historial sin duplicar IDs de sesión. Los PNG/SVG solo se harán públicos tras aprobación.
+**Equipos:** Dani Martínez y Hugo Gómez compiten juntos en **MNTeam**. El campeonato de equipos se computa sumando los puntos de sus integrantes.
 
-El repositorio público es el punto de lectura, **no** la fuente de autoridad del campeonato.
+**Nota:** la publicación automática depende de que el resultado ya esté archivado en el repositorio privado. Las carreras de ensayo, ficheros inválidos y duplicados se bloquean. La pole puede inferirse provisionalmente del P1 de parrilla cuando falte un dato explícito, y corregirse después.
+
+Este feed no contiene contraseñas, tokens ni otras credenciales.
