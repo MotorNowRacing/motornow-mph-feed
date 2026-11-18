@@ -1,0 +1,11 @@
+{
+  "series": "MP-H Elite Series",
+  "season": 2026,
+  "status": "AWAITING_PUBLICATION",
+  "publishable": false,
+  "generated_at_utc": null,
+  "race": null,
+  "notes": [
+    "No mostrar como resultado oficial mientras publishable sea false."
+  ]
+}
