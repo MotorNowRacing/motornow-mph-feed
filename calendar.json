@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "series": "MP-H Elite Series",
+  "season": 2026,
+  "status": "ORGANIZER_CONFIRMED",
+  "publishable": true,
+  "timezone": "Europe/Madrid",
+  "format": {
+    "qualifying_local": "21:45",
+    "race_local_approx": "22:00",
+    "duration": "60 minutos + 1 vuelta",
+    "virtual_start_note": "hora virtual de salida en Assetto Corsa; no hora real de clasificación",
+    "race_window_end_local_approx": "23:15"
+  },
+  "breaks": [
+    {
+      "date": "2026-12-08",
+      "label": "Descanso"
+    }
+  ],
+  "races": [
+    {
+      "id": "sebring-2026-11-03",
+      "round": 1,
+      "name": "Sebring",
+      "date": "2026-11-03",
+      "qualy_local": "21:45",
+      "race_local_approx": "22:00",
+      "virtual_start": "10:10",
+      "time_multiplier": 12,
+      "result_id": "sebring-2026-11-03"
+    },
+    {
+      "id": "spa-2026-11-10",
+      "round": 2,
+      "name": "Spa-Francorchamps",
+      "date": "2026-11-10",
+      "qualy_local": "21:45",
+      "race_local_approx": "22:00",
+      "virtual_start": "14:00",
+      "time_multiplier": 6,
+      "result_id": "spa-2026-11-10"
+    },
+    {
+      "id": "portimao-2026-11-17",
+      "round": 3,
+      "name": "Portimão",
+      "date": "2026-11-17",
+      "qualy_local": "21:45",
+      "race_local_approx": "22:00",
+      "virtual_start": "12:00",
+      "time_multiplier": 6,
+      "result_id": "portimao-2026-11-17"
+    },
+    {
+      "id": "lemans-2026-11-24",
+      "round": 4,
+      "name": "Le Mans",
+      "date": "2026-11-24",
+      "qualy_local": "21:45",
+      "race_local_approx": "22:00",
+      "virtual_start": "16:00",
+      "time_multiplier": 24,
+      "result_id": null
+    },
+    {
+      "id": "cota-2026-12-01",
+      "round": 5,
+      "name": "Circuit of the Americas",
+      "date": "2026-12-01",
+      "qualy_local": "21:45",
+      "race_local_approx": "22:00",
+      "virtual_start": "13:00",
+      "time_multiplier": 6,
+      "result_id": null
+    },
+    {
+      "id": "monza-2026-12-15",
+      "round": 6,
+      "name": "Monza",
+      "date": "2026-12-15",
+      "qualy_local": "21:45",
+      "race_local_approx": "22:00",
+      "virtual_start": "11:00",
+      "time_multiplier": 6,
+      "result_id": null
+    },
+    {
+      "id": "bahrain-2026-12-22",
+      "round": 7,
+      "name": "Baréin",
+      "date": "2026-12-22",
+      "qualy_local": "21:45",
+      "race_local_approx": "22:00",
+      "virtual_start": "14:00",
+      "time_multiplier": 8,
+      "result_id": null
+    }
+  ]
+}
