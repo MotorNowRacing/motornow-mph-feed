@@ -1,17 +1,20 @@
 {
   "series": "MP-H Elite Series",
   "season": 2026,
-  "status": "AUTO_PUBLISHED_CORRECTABLE",
   "publishable": true,
+  "status": "AUTO_PUBLISHED_CORRECTABLE",
   "last_archived": "2026-11-17",
   "races": [
     {
       "id": "portimao-2026-11-17",
       "title": "GP de Portugal · Portimão",
       "date": "17/11/2026",
+      "completed_at": "2026-11-17T23:14:00+01:00",
       "session_id": "2026_11_17_23_14_RACE",
       "source": "https://es3.assettohosting.com:50834/results/download/2026_11_17_23_14_RACE.json",
-      "verified_pole_driver": "Hugo Gómez",
+      "pole_driver": "Hugo Gómez",
+      "pole_status": "source_verified",
+      "has_postrace_correction": false,
       "results": [
         {
           "position": 1,
@@ -20,7 +23,7 @@
           "laps": 41,
           "best_lap_ms": 88704,
           "grid_position": 2,
-          "penalty_seconds": 0,
+          "penalty_seconds": 0.0,
           "points": 25
         },
         {
@@ -30,7 +33,7 @@
           "laps": 41,
           "best_lap_ms": 87734,
           "grid_position": 3,
-          "penalty_seconds": 0,
+          "penalty_seconds": 0.0,
           "points": 19
         },
         {
@@ -40,7 +43,7 @@
           "laps": 40,
           "best_lap_ms": 90528,
           "grid_position": 5,
-          "penalty_seconds": 0,
+          "penalty_seconds": 0.0,
           "points": 15
         },
         {
@@ -50,7 +53,7 @@
           "laps": 40,
           "best_lap_ms": 90086,
           "grid_position": 8,
-          "penalty_seconds": 0,
+          "penalty_seconds": 0.0,
           "points": 12
         },
         {
@@ -60,7 +63,7 @@
           "laps": 40,
           "best_lap_ms": 88590,
           "grid_position": 4,
-          "penalty_seconds": 0,
+          "penalty_seconds": 0.0,
           "points": 9
         },
         {
@@ -70,7 +73,7 @@
           "laps": 39,
           "best_lap_ms": 92379,
           "grid_position": 9,
-          "penalty_seconds": 0,
+          "penalty_seconds": 0.0,
           "points": 7
         },
         {
@@ -80,7 +83,7 @@
           "laps": 39,
           "best_lap_ms": 90718,
           "grid_position": 6,
-          "penalty_seconds": 0,
+          "penalty_seconds": 0.0,
           "points": 5
         },
         {
@@ -90,7 +93,7 @@
           "laps": 39,
           "best_lap_ms": 91377,
           "grid_position": 7,
-          "penalty_seconds": 0,
+          "penalty_seconds": 0.0,
           "points": 3
         },
         {
@@ -100,7 +103,7 @@
           "laps": 39,
           "best_lap_ms": 92851,
           "grid_position": 10,
-          "penalty_seconds": 0,
+          "penalty_seconds": 0.0,
           "points": 2
         },
         {
@@ -110,7 +113,7 @@
           "laps": 19,
           "best_lap_ms": 89678,
           "grid_position": 1,
-          "penalty_seconds": 0,
+          "penalty_seconds": 0.0,
           "points": 1
         }
       ]
@@ -325,6 +328,5 @@
         "pole_evidence": "grid_position_1 + exact season points reconciliation; independent Q session pending"
       }
     }
-  ],
-  "revision_policy": "Correciones posteriores permitidas; identificadores únicos de sesión y control del historial."
+  ]
 }

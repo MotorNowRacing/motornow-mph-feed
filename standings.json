@@ -1,10 +1,9 @@
 {
   "series": "MP-H Elite Series",
   "season": 2026,
-  "status": "ARCHIVED_SNAPSHOT",
   "publishable": true,
+  "status": "ARCHIVED_SNAPSHOT",
   "as_of_utc": "2026-11-17T22:14:00+00:00",
-  "after_race": "data/races/2026-11-17-algarve-portimao-2023-portugal.json",
   "drivers": [
     {
       "position": 1,
@@ -111,6 +110,6 @@
     }
   ],
   "teams_status": "ORGANIZER_APPROVED_SUM_OF_DRIVER_POINTS",
-  "revision_policy": "Corrections to archived race results and scoring generate new snapshots; git history stores changes.",
-  "source": "organizer_verified_2026-11-18"
+  "source_session_id": "2026_11_17_23_14_RACE",
+  "revision_policy": "Can be updated after penalties or race corrections"
 }
