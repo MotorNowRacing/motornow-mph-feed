@@ -1,11 +1,116 @@
 {
   "series": "MP-H Elite Series",
   "season": 2026,
-  "status": "AWAITING_PUBLICATION",
-  "publishable": false,
-  "generated_at_utc": null,
-  "race": null,
-  "notes": [
-    "No mostrar como resultado oficial mientras publishable sea false."
-  ]
+  "status": "AUTO_PUBLISHED_CORRECTABLE",
+  "publishable": true,
+  "race": {
+    "id": "portimao-2026-11-17",
+    "title": "GP de Portugal · Portimão",
+    "date": "17/11/2026",
+    "session_id": "2026_11_17_23_14_RACE",
+    "source": "https://es3.assettohosting.com:50834/results/download/2026_11_17_23_14_RACE.json",
+    "verified_pole_driver": "Hugo Gómez",
+    "results": [
+      {
+        "position": 1,
+        "driver": "Eric Fructuoso",
+        "team": "Ninety Two eSports",
+        "laps": 41,
+        "best_lap_ms": 88704,
+        "grid_position": 2,
+        "penalty_seconds": 0,
+        "points": 25
+      },
+      {
+        "position": 2,
+        "driver": "César Matarín",
+        "team": "Road Cavaliers",
+        "laps": 41,
+        "best_lap_ms": 87734,
+        "grid_position": 3,
+        "penalty_seconds": 0,
+        "points": 19
+      },
+      {
+        "position": 3,
+        "driver": "Dani Martínez",
+        "team": "MNTeam",
+        "laps": 40,
+        "best_lap_ms": 90528,
+        "grid_position": 5,
+        "penalty_seconds": 0,
+        "points": 15
+      },
+      {
+        "position": 4,
+        "driver": "Fernando Morón",
+        "team": "MotorNow",
+        "laps": 40,
+        "best_lap_ms": 90086,
+        "grid_position": 8,
+        "penalty_seconds": 0,
+        "points": 12
+      },
+      {
+        "position": 5,
+        "driver": "Iker",
+        "team": "VLCRB TEAM",
+        "laps": 40,
+        "best_lap_ms": 88590,
+        "grid_position": 4,
+        "penalty_seconds": 0,
+        "points": 9
+      },
+      {
+        "position": 6,
+        "driver": "Fali",
+        "team": "Canal 47",
+        "laps": 39,
+        "best_lap_ms": 92379,
+        "grid_position": 9,
+        "penalty_seconds": 0,
+        "points": 7
+      },
+      {
+        "position": 7,
+        "driver": "José Ramón García",
+        "team": "CRT",
+        "laps": 39,
+        "best_lap_ms": 90718,
+        "grid_position": 6,
+        "penalty_seconds": 0,
+        "points": 5
+      },
+      {
+        "position": 8,
+        "driver": "José Fructuoso",
+        "team": "Ninety Two eSports",
+        "laps": 39,
+        "best_lap_ms": 91377,
+        "grid_position": 7,
+        "penalty_seconds": 0,
+        "points": 3
+      },
+      {
+        "position": 9,
+        "driver": "Víctor Gabriel",
+        "team": "CRT",
+        "laps": 39,
+        "best_lap_ms": 92851,
+        "grid_position": 10,
+        "penalty_seconds": 0,
+        "points": 2
+      },
+      {
+        "position": 10,
+        "driver": "Hugo Gómez",
+        "team": "MNTeam",
+        "laps": 19,
+        "best_lap_ms": 89678,
+        "grid_position": 1,
+        "penalty_seconds": 0,
+        "points": 1
+      }
+    ]
+  }
 }
