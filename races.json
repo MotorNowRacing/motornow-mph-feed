@@ -3,8 +3,111 @@
   "season": 2026,
   "publishable": true,
   "status": "AUTO_PUBLISHED_CORRECTABLE",
-  "last_archived": "2026-11-17",
+  "last_archived": "2026-11-24",
   "races": [
+    {
+      "id": "2026-11-24-le-mans-fm7-24h-race-start-special-france",
+      "title": "Le Mans FM7 - 24h race start special, France",
+      "date": "24/11/2026",
+      "completed_at": "2026-11-24T23:42:00+01:00",
+      "session_id": "2026_11_24_23_42_RACE",
+      "source": "https://es3.assettohosting.com:50834/results/download/2026_11_24_23_42_RACE.json",
+      "pole_driver": "Eric Fructuoso",
+      "pole_status": "inferred_from_grid",
+      "has_postrace_correction": false,
+      "results": [
+        {
+          "position": 1,
+          "driver": "Eric Fructuoso",
+          "team": "Ninety Two eSports",
+          "laps": 25,
+          "best_lap_ms": 202867,
+          "grid_position": 1,
+          "penalty_seconds": 0.0,
+          "points": 26
+        },
+        {
+          "position": 2,
+          "driver": "César Matarín",
+          "team": "Road Cavaliers",
+          "laps": 25,
+          "best_lap_ms": 203441,
+          "grid_position": 2,
+          "penalty_seconds": 0.0,
+          "points": 18
+        },
+        {
+          "position": 3,
+          "driver": "Hugo Gómez",
+          "team": "MNTeam",
+          "laps": 25,
+          "best_lap_ms": 200937,
+          "grid_position": 3,
+          "penalty_seconds": 0.0,
+          "points": 16
+        },
+        {
+          "position": 4,
+          "driver": "Dani Martínez",
+          "team": "MNTeam",
+          "laps": 24,
+          "best_lap_ms": 207821,
+          "grid_position": 5,
+          "penalty_seconds": 0.0,
+          "points": 12
+        },
+        {
+          "position": 5,
+          "driver": "José Fructuoso",
+          "team": "Ninety Two eSports",
+          "laps": 24,
+          "best_lap_ms": 209507,
+          "grid_position": 8,
+          "penalty_seconds": 0.0,
+          "points": 9
+        },
+        {
+          "position": 6,
+          "driver": "Arnau Bardina",
+          "team": "Road Cavaliers",
+          "laps": 24,
+          "best_lap_ms": 207211,
+          "grid_position": 7,
+          "penalty_seconds": 0.0,
+          "points": 7
+        },
+        {
+          "position": 7,
+          "driver": "Fernando Morón",
+          "team": "MotorNow",
+          "laps": 24,
+          "best_lap_ms": 208472,
+          "grid_position": 9,
+          "penalty_seconds": 0.0,
+          "points": 5
+        },
+        {
+          "position": 8,
+          "driver": "Fali",
+          "team": "Canal 47",
+          "laps": 24,
+          "best_lap_ms": 208870,
+          "grid_position": 6,
+          "penalty_seconds": 0.0,
+          "points": 3
+        },
+        {
+          "position": 9,
+          "driver": "José Ramón García",
+          "team": "CRT",
+          "laps": 15,
+          "best_lap_ms": 209483,
+          "grid_position": 4,
+          "penalty_seconds": 0.0,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": "portimao-2026-11-17",
       "title": "GP de Portugal · Portimão",
